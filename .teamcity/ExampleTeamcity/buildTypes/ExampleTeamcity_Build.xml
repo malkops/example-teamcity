@@ -7,7 +7,7 @@
       <option name="artifactRules" value="target/plaindoll-*.jar&#xA;target/original-plaindoll-*.jar" />
     </options>
     <parameters>
-      <param name="system.prj.ver" value="%maven.project.version%" />
+      <param name="system.prj.ver" value="%teamcity.build.id%" />
     </parameters>
     <build-runners>
       <runner id="RUNNER_1" name="master" type="Maven2">
